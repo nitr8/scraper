@@ -37,4 +37,7 @@ curl \
 --form 'pdfFormat="PDF/A-1a"' \
 -o /Users/whumphrey/projects/scraper/output/my.pdf
 
+
+time find . -name '*.doc' > /dev/null
+
 ```
